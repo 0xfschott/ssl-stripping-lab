@@ -50,7 +50,6 @@ EOF
         ErrorLog \${APACHE_LOG_DIR}/error.log
         CustomLog \${APACHE_LOG_DIR}/access.log combined
     </VirtualHost>
-EOF  
 
     # Apache Configuration to Redirect HTTP to HTTPS
     cat <<EOF > /etc/apache2/sites-available/000-default.conf
